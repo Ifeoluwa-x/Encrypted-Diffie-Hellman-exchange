@@ -65,14 +65,14 @@ finaliar64/
 
 ### 🧩 Step 1: RSA Key Generation (Ubuntu - SOURCE)
 - **Script:** `step1/1sRSAkeys.py`
-- **Screenshot:** `step1/1sRSAkeysiar64.png`
+- **Screenshot:** ![Step 1 RSA Key Image](step1/1sRSAkeysiar64.png)
 - **Description:** Generates RSA key pair; saves keys in binary and ASCII; prints and screenshots with timestamp.
 
 ---
 
 ### 🧩 Step 2: RSA Key Generation (Kali - DESTINATION)
 - **Script:** `step2/2dRSAkeys.py`
-- **Screenshot:** `step2/2dRSAkeysiar64.png`
+- **Screenshot:** ![Step 2 RSA Key Image](step2/2dRSAkeysiar64.png)
 - **Description:** Same as Step 1 but done in Kali.
 
 ---
@@ -87,14 +87,14 @@ finaliar64/
 ### 🧩 Step 4: Symmetric Encryption Using Vigenère (Ubuntu)
 - **Script:** `step4/4symencryptiar64.py`
 - **Output:** `step4/4sencryptedtextiar64`
-- **Screenshot:** `step4/4sencryptedtextiar64.png`
+- **Screenshot:** ![Step 4 Symmetric Encryption](step4/4sencryptedtextiar64.png)
 - **Description:** Encrypts original text using the Vigenère table and key `SHAKESPEARE`.
 
 ---
 
 ### 🧩 Step 5: Symmetric Key Encryption and Transfer
 - **Script:** `step5/5keyencryptioniar64.py`
-- **Screenshot:** `step5/5exchangeiar64.png`
+- **Screenshot:** ![Step 5 Key Exchange](step5/5exchangeiar64.png)
 - **Description:** Encrypts the symmetric key with the Kali public RSA key; transfers key + Vigenère table via Bash.
 
 ---
@@ -102,13 +102,13 @@ finaliar64/
 ### 🧩 Step 6: Decrypt Symmetric Key (Kali)
 - **Script:** `step6/6keydecryptioniar64.py`
 - **Output:** `6symmetrickeyiar64`
-- **Screenshot:** `step6/6keydecryptioniar64.png`
+- **Screenshot:** ![Step 6 Key Decryption](step6/6keydecryptioniar64.png)
 - **Description:** Uses private RSA key to decrypt symmetric key.
 
 ---
 
 ### 🧩 Step 7: Encrypted Text Transfer (Ubuntu ➡️ Kali)
-- **Screenshot:** `step7/7encfiletraniar64.png`
+- **Screenshot:** ![Step 7 File Encryption](step7/7encfiletraniar64.png)
 - **Description:** Transfers encrypted text file to DESTINATION with Bash and timestamped log.
 
 ---
@@ -116,7 +116,7 @@ finaliar64/
 ### 🧩 Step 8: Decryption of Text Using Symmetric Key (Kali)
 - **Script:** `step8/8ddecryptioniar64.py`
 - **Output:** `8dplaintextiar64`
-- **Screenshot:** `step8/8finaldecryptioniar64.png`
+- **Screenshot:** ![Step 8 Final Decryption](step8/8finaldecryptioniar64.png)
 - **Description:** Decrypts text using recovered symmetric key and imported Vigenère table.
 
 ---
@@ -124,7 +124,7 @@ finaliar64/
 ### 🧩 Step 9: Final Text Processing (Kali)
 - **Script:** `step9/9finalcodeiar64.py`
 - **Output:** `9absolutefinaliar64`
-- **Screenshot:** `step9/9absolutefinaliar64.jpg`
+- **Screenshot:** ![Final Code](step9/9absolutefinaliar64.jpg)
 - **Description:** Converts text: punctuation → ASCII in `{}`, lowercases every character except first in line.
 
 ---
